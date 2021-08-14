@@ -1,0 +1,25 @@
+body{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 2.5%;
+    display: flex;
+}
+
+.text{
+    margin: auto;
+    width: 64%;
+    line-height: 37px;
+    color: white;
+}
+
+.flecha{
+    width: 64px;
+}
+
+.flecha:hover{
+    transition: 0.3s;
+    transform: scale(1.2)
+}

@@ -1,0 +1,63 @@
+body{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.nav1{
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav1 .i{
+    width: 64px;
+}
+
+.nav1 .i:hover{
+    transition: 0.5s;
+    transform: scale(3);
+}
+
+.nav2{
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2 .i{
+    width: 64px;
+}
+
+.nav2 .i:hover{
+    transition: 0.5s;
+    transform: scale(3)
+}
+
+.nav3{
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav3 .i{
+    width: 64px;
+}
+
+.nav3 .i:hover{
+    transition: 0.5s;
+    transform: scale(3);
+}
+
+.flecha{
+    width: 64px;
+}
+
+.flecha:hover{
+    transition: 0.3s;
+    transform: scale(1.2)
+}
+

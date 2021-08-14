@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactivo Salomon</title>
+    <!----------------------------------------  Estilos   ---------------------------------------->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script type="text/javascript" src="/index.js"></script>
+    <!----------------------------------------  Boostrap  ---------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!----------------------------------------  Boostrap  ---------------------------------------->
+
+    <!---------------------------------------  Google Font  -------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <!---------------------------------------  Google Font  -------------------------------------->
+</head>
+<body>
+    <header>
+        <h1 class="text_header">¡ Hola ! <br>Soy Nicolás Salomón<br> Bienvenida/o a mi Curriculum Interactivo<hr></h1>
+    </header>
+        <div class="buttons">
+          <a type="button" class="btn btn-outline-light" href="../static/sobre_mi.html" style="box-shadow: 10px 10px 25px black;">Sobre mi</a>
+          <a class="btn btn-outline-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="box-shadow: 10px 10px 25px black;">Contacto</a>
+        </div>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Contacto</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="text_barra_lateral">
+            <hr>
+            Liniers, CABA, Argentina.
+            <br>
+            <hr>
+            Teléfono: (+54) 011 3615 0699
+            <br>
+            <hr>
+            Mail: nicomsalomon@gmail.com
+            <br>
+            <hr>
+            13/09/1995
+            <br>        
+            <hr>    
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-salom%C3%B3n-b165b51b6/" style="color: black;">LinkedIn</a>
+            <br>
+            <hr>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-salom%C3%B3n-b165b51b6/" style="color: black;">GitHub</a>
+            <br>
+            <hr>
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Más
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="../static/conocimientos.html">Conocimientos</a></li>
+              <li><a class="dropdown-item" href="../static/habilidades.html">Habilidades</a></li>
+              <li><a class="dropdown-item" href="../static/educacion.html">Educación</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

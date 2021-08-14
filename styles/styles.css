@@ -1,0 +1,39 @@
+body{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    text-align: center;       
+}
+
+header{
+    margin: 4%;    
+}
+
+.text_header{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 95px;
+    color: white;
+    text-shadow: 10px 10px 8px black;
+}
+
+.text_barra_lateral{
+    color: white;
+}
+
+.buttons{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offcanvas-header{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.offcanvas-body{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
